@@ -28,8 +28,9 @@ import Photos from "./components/photo/Photos";
 function App() {
   return (
     <div>
+      <Counter></Counter>
       {/* <CardTailwind primary></CardTailwind> */}
-      <Photos></Photos>
+      {/* <Photos></Photos> */}
     </div>
     // <div className="youtube-list">
     //   {/* <YtbItems
