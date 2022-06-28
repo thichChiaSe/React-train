@@ -1,16 +1,17 @@
 import "./App.css";
 import React from "react";
-import Toggle from "./components/Toggle";
-import Counter from "./components/Counter";
-import { Game } from "./components/tictactoe/Game";
-import Button from "./components/button/Button";
-import Card from "./components/Card/Card";
-import CardList from "./components/Card/CardList";
-import { Global } from "./Global";
-import CardTailwind from "./components/Card/CardTailwind";
-import Photos from "./components/photo/Photos";
-import Timer from "./components/Timer";
-import Header from "./components/Header";
+// import Toggle from "./components/Toggle";
+// import Counter from "./components/Counter";
+// import { Game } from "./components/tictactoe/Game";
+// import Button from "./components/button/Button";
+// import Card from "./components/Card/Card";
+// import CardList from "./components/Card/CardList";
+// import { Global } from "./Global";
+// import CardTailwind from "./components/Card/CardTailwind";
+// import Photos from "./components/photo/Photos";
+// import Timer from "./components/Timer";
+// import Header from "./components/Header";
+import HackerNews from "./components/news/HackerNews";
 // export const YtbItems = (props) => {
 //   return (
 //     <div className="youtube-item">
@@ -30,7 +31,8 @@ import Header from "./components/Header";
 function App() {
   return (
     <div className="">
-      <Header></Header>
+      <HackerNews></HackerNews>
+      {/* <Header></Header> */}
       {/* <Timer></Timer> */}
       {/* <Counter></Counter> */}
       {/* <CardTailwind primary></CardTailwind> */}
