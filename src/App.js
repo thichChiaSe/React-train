@@ -9,6 +9,8 @@ import CardList from "./components/Card/CardList";
 import { Global } from "./Global";
 import CardTailwind from "./components/Card/CardTailwind";
 import Photos from "./components/photo/Photos";
+import Timer from "./components/Timer";
+import Header from "./components/Header";
 // export const YtbItems = (props) => {
 //   return (
 //     <div className="youtube-item">
@@ -27,8 +29,10 @@ import Photos from "./components/photo/Photos";
 // };
 function App() {
   return (
-    <div>
-      <Counter></Counter>
+    <div className="">
+      <Header></Header>
+      {/* <Timer></Timer> */}
+      {/* <Counter></Counter> */}
       {/* <CardTailwind primary></CardTailwind> */}
       {/* <Photos></Photos> */}
     </div>
